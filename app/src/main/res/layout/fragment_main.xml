@@ -45,11 +45,10 @@
                 android:layout_weight="0.0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
-
+        <!-- check clock spacing -->
             <Chronometer
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:layout_weight="1.0"
                 android:paddingLeft="30dp"
                 android:textSize="40dp"
@@ -141,6 +140,7 @@
 
             <Button
                 android:id="@+id/btn_setPit"
+                android:onClick="On_btn_setPit"
                 android:layout_weight="0.0"
                 android:layout_gravity="bottom"
                 android:text="Set"
@@ -235,6 +235,7 @@
 
             <Button
                 android:id="@+id/btn_setMinTemp"
+                android:onClick="On_btn_SetMin"
                 android:layout_weight="0.0"
                 android:layout_gravity="bottom"
                 android:text="Set"
@@ -275,6 +276,7 @@
 
         <Button
             android:id="@+id/btn_setFanSpeed"
+            android:onClick="On_btn_SetFan"
             android:layout_weight="0.0"
             android:layout_gravity="bottom"
             android:text="Set"
