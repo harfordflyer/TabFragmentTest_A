@@ -294,8 +294,8 @@
         android:layout_height="wrap_content">
 
         <CheckBox
-            android:id="@+id/ckbx_SaveConfig"
-            android:text="Save Configuration"
+            android:id="@+id/ckbx_SaveSettings"
+            android:text="Save Settings"
             android:textSize="@dimen/text_size"
             android:clickable="true"
             android:checked="false"
