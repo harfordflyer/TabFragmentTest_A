@@ -6,6 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+
     tools:context="com.example.dhammond1.tabfragmenttest.MainActivityFragment">
 
     <LinearLayout
@@ -296,6 +297,7 @@
 
     </LinearLayout>
 
+
     <LinearLayout
         android:id="@+id/linearSaveConfig"
         android:orientation="horizontal"
@@ -303,14 +305,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <CheckBox
-            android:id="@+id/ckbx_SaveConfig"
-            android:text="Save Configuration"
-            android:textSize="@dimen/text_size"
-            android:clickable="true"
-            android:checked="false"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_saveConfig"
+        android:onClick="On_btn_saveConfig"
+        android:layout_weight="0.0"
+        android:layout_gravity="bottom"
+        android:text="Ssave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     </LinearLayout>
+
 
 </RelativeLayout>
