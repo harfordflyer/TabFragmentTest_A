@@ -125,18 +125,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-
-            <EditText
-                android:id="@+id/ed_targetPitTemp"
+            <TextView
+                android:id="@+id/txt_targetTemp"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:textSize="@dimen/text_sizeEdit"
-                android:text="250"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
                 android:layout_marginRight="10dp"
-                android:layout_gravity="bottom"
-                android:focusable="true"
-                android:inputType="number"
-                android:maxLength="3"/>
+                android:layout_gravity="bottom"/>
+
+
+
 
 
             <Button
@@ -145,6 +143,8 @@
                 android:layout_weight="0.0"
                 android:layout_gravity="bottom"
                 android:text="Set"
+                android:visibility="invisible"
+                android:enabled="false"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
