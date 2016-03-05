@@ -27,6 +27,7 @@
 
     </LinearLayout>
 
+    <!--
     <LinearLayout
         android:id="@+id/targetPitRow"
         android:orientation="horizontal"
@@ -56,11 +57,12 @@
             android:layout_weight="1.0"
             />
     </LinearLayout>
+-->
 
     <LinearLayout
         android:id="@+id/minPitRow"
         android:orientation="horizontal"
-        android:layout_below="@id/targetPitRow"
+        android:layout_below="@id/pidHeading"
         android:layout_width="match_parent"
         android:layout_height="43dp">
 
